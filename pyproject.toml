@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "prime-jg4729"
+version = "0.1.0"
+description = "python package that eases the pain of concatenating pandas categoricals"
+authors = ["Angie Gao <jg4729@columbia.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
